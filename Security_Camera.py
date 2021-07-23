@@ -1,4 +1,4 @@
-import cv2
+import cv2# import python module CV2 (pip install opencv-python)
 import winsound
 cam = cv2.VideoCapture(0)
 while cam.isOpened():
